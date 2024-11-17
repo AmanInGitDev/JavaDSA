@@ -1,1 +1,1 @@
-Lets leearn Java with me. 
+Lets learn Java with me
