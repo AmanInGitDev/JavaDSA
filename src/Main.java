@@ -1,20 +1,11 @@
-import java.util.Scanner;
 
 public class Main {
+
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        System.out.println("Cineme:\n  1 2 3 4 5 6 7 8");
 
-        int num1 = scanner.nextInt();
-        int num2 = scanner.nextInt();
-
-        System.out.println(num1+num2);
-
-        System.out.println(num1-num2);
-
-        System.out.println(num1*num2);
-
-        System.out.println(num1/num2);
-
-        scanner.close();
+        for(int i=1; i<8; i++){
+            System.out.println(i+" S S S S S S S S");
+        }
     }
 }
