@@ -1,20 +1,14 @@
-package Patterns;/* Given an integer n. You need to recreate the pattern given below for any value of N.
-Let's say for N = 5, the pattern should look like as below:
- *****
- *****
- *****
- *****
- *****
- */
-
+package Striver_Basics.I_Patterns;
 
 import java.util.Scanner;
 
-class solution4 {
-    public void pattern1(int n) {
+class solution6 {
+    public static void pattern6(int n) {
+
         for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= i; j++) {
-                System.out.print(i);
+
+            for (int j = 1; j <= n-i+1; j++) {
+                System.out.print(j);
             }
             System.out.println();
         }
@@ -25,8 +19,8 @@ class solution4 {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
 
-        solution4 obj = new solution4();
-        obj.pattern1(N);
+        solution6 obj = new solution6();
+        obj.pattern6(N);
     }
 }
 

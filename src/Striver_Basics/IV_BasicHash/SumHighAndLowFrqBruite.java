@@ -1,4 +1,4 @@
-package BasicHash;
+package Striver_Basics.IV_BasicHash;
 
 class SumHighAndLowFrqBruite {
     public int solution3(int[] nums) {

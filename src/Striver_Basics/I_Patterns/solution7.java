@@ -1,14 +1,20 @@
-package Patterns;
+package Striver_Basics.I_Patterns;
 
 import java.util.Scanner;
 
-class solution6 {
-    public static void pattern6(int n) {
+class solution7 {
+    public static void pattern7(int n) {
 
-        for (int i = 1; i <= n; i++) {
+        for (int i = 0; i < n; i++) {
 
-            for (int j = 1; j <= n-i+1; j++) {
-                System.out.print(j);
+            for (int j = 0; j < n-i+1; j++) {
+                System.out.print(" ");
+            }
+            for (int j = 0; j < i*2+1; j++) {
+                System.out.print("*");
+            }
+            for (int j = 0; j < n-i+1; j++) {
+                System.out.print(" ");
             }
             System.out.println();
         }
@@ -19,8 +25,8 @@ class solution6 {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
 
-        solution6 obj = new solution6();
-        obj.pattern6(N);
+        solution7 obj = new solution7();
+        obj.pattern7(N);
     }
 }
 

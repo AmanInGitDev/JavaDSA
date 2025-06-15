@@ -1,4 +1,4 @@
-package BasicArray;
+package Striver_Basics.III_BasicArray;
 
 class SortCheck2{
     public boolean SortCheck(int[] arr, int n){

@@ -1,4 +1,4 @@
-package BasicHash;
+package Striver_Basics.IV_BasicHash;
 
 class SecMostOccuBruite {
     public int solution3(int[] nums){

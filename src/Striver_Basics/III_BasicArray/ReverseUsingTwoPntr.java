@@ -1,4 +1,4 @@
-package BasicArray;
+package Striver_Basics.III_BasicArray;
 
 class reverse1{
     public void reverse1(int[] arr, int n){

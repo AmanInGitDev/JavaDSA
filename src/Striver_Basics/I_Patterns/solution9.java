@@ -1,4 +1,4 @@
-package Patterns;
+package Striver_Basics.I_Patterns;
 
 import java.util.Scanner;
 

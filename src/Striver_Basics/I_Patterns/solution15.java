@@ -1,13 +1,11 @@
-package Patterns;
+package Striver_Basics.I_Patterns;
 
 import java.util.Scanner;
 
-class solution16 {
+class solution15 {
     public void pattern15(int n) {
         for (int i = 0; i < n; i++) {
-
-            char ch = (char) ('A'+i);
-            for (int j=0; j<=i; j++) {
+            for (char ch = 'A'; ch <= 'A'+(n-i-1); ch++) {
                 System.out.print(ch);
             }
             System.out.println();
@@ -19,7 +17,7 @@ class solution16 {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
 
-        solution16 obj = new solution16();
+        solution15 obj = new solution15();
         obj.pattern15(N);
     }
 }
