@@ -1,4 +1,4 @@
-package Basics.unit1;
+package TheoryBasicsTelusko.unit1;
 
 public class conversion {
     public static void main(String[] args) {

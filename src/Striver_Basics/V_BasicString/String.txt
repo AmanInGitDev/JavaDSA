@@ -1,0 +1,16 @@
+1. Reverse a String II - There are three ways for now doing this;
+    I) RevString_I - We can simply use a character array as input and by two pointers solve it
+    II) RevString_II = We have to use Vector<> for character and Arrays for a list;
+    III) RevString_III - We have to use Stack collection but it uses O(n) rather all above uses O(1) space;
+
+2. Palindrome Check
+    I) There will be the same method as Reversing, but here we compare rather that setting, optimal is when we use two pointers
+
+3. Largest Odd Number in a String
+
+
+Longest Common Prefix
+Isomorphic String
+Rotate String
+Valid Anagram
+Sort Characters by F
