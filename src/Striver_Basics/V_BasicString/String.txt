@@ -7,6 +7,7 @@
     I) There will be the same method as Reversing, but here we compare rather that setting, optimal is when we use two pointers
 
 3. Largest Odd Number in a String
+    I) didnt get the question
 
 
 Longest Common Prefix
