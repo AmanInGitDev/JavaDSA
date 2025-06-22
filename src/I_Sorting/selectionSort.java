@@ -1,4 +1,4 @@
-package Sorting;
+package I_Sorting;
 
 public class selectionSort {
     public static int[] sorting(int[] nums){
