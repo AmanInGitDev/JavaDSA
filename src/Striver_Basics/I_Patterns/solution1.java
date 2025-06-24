@@ -9,7 +9,6 @@ Let's say for N = 5, the pattern should look like as below:
 
  */
 
-
 import java.util.Scanner;
 
 class solution1 {
