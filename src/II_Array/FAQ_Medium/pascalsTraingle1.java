@@ -19,8 +19,6 @@ public class pascalsTraingle1 {
     }
 
 
-
-
     public static void main(String[] args) {
         int r = 6;
         int c = 2;
