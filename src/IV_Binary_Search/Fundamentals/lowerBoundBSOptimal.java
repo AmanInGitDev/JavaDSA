@@ -1,4 +1,4 @@
-public class lowerBoundBSBruite {
+public class lowerBoundBSOptimal {
     public int lowerBound(int[] nums, int x) {
         int n = nums.length;
         int low = 0, high = n - 1;
@@ -22,7 +22,7 @@ public class lowerBoundBSBruite {
         int[] arr = {3,5,8,15,19};
         int x = 2;
 
-        lowerBoundBSBruite sol = new lowerBoundBSBruite();
+        lowerBoundBSOptimal sol = new lowerBoundBSOptimal();
 
         int ind = sol.lowerBound(arr, x);
         
