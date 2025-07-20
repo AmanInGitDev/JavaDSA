@@ -1,4 +1,4 @@
-public class searchInTwoDMatrix {
+public class searchInTwoDMatrixI {
     public boolean searchMatrix(int[][] mat, int target) {
         int n = mat.length;
         int m = mat[0].length;
@@ -27,7 +27,7 @@ public class searchInTwoDMatrix {
         int[][] matrix = {{1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12}};
         int target = 8;
         
-        searchInTwoDMatrix sol = new searchInTwoDMatrix();
+        searchInTwoDMatrixI sol = new searchInTwoDMatrixI();
         
         boolean result = sol.searchMatrix(matrix, target);
         

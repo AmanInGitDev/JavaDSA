@@ -1,4 +1,4 @@
-/*
+package IV_Binary_Search.TwoDim;/*
     Find row with maximum 1's
         Given a non-empty grid mat consisting of only 0s and 1s, where all the rows are sorted in ascending order,
         find the index of the row with the maximum number of ones.

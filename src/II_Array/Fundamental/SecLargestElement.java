@@ -8,7 +8,7 @@ public class SecLargestElement {
 
             for (int i=0; i<n; i++){
                 if(nums[i] > largest){
-                    secondLargest = largest;    // here i made mistake i only updated the largest but not secondlargest it can cuase bugs
+                    secondLargest = largest;    // here i made mistake i only updated the largest but not secondlargest it can cause bugs
                     largest = nums[i];
                 }
 
