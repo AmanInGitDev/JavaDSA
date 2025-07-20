@@ -1,23 +1,35 @@
 import java.util.Arrays;
 
 public class moveZeroToEnd {
-    public int moveZeroes(int[] nums) {
-        int n = nums.length;
-        int total = n * (n + 1) / 2;
-
-        int sum = 0;
-        for (int i = 0; i < n; i++) {
-            sum += nums[i];
+    public void moveZeroes(int[] nums) {
+        int n=nums.length;
+        int index=0;
+        
+        for(int i=0;i<n;i++) {
+            if (nums[i] != 0) {
+                nums[index++] = nums[i];
+            }
         }
-        return total - sum;
+        
+        for(int i=index;i<n;i++){
+            nums[i]=0;
+        }
     }
+    
 
     public static void main(String[] args){
-        int[] nums = {2,4,6,0,3,1,5,8};
-
+        int[] arr = {1, 0, 2, 3, 2, 0, 0, 4, 5, 1};
+        
+        // Create an instance of the Solution class
         moveZeroToEnd solution = new moveZeroToEnd();
-        int answer = solution.moveZeroes(nums);
-
-        System.out.println("Answer: "+answer);
+        
+        // Modify the array in place
+        solution.moveZeroes(arr);
+        
+        // Print the elements
+        for (int it : arr) {
+            System.out.print(it + " ");
+        }
+        System.out.println();
     }
 }
