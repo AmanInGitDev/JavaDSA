@@ -1,8 +1,11 @@
 Sum of First N Numbers
 Factorial of a Given Number
 Sum of Array Elements
+
 Reverse a String I
 Check if String is Palindrome or Not
+
+
 Check if a Number is Prime or Not
 Reverse an array
 Check if the Array is Sorted II

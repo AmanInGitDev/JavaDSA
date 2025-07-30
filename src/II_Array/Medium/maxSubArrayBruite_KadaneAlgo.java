@@ -1,4 +1,4 @@
-package II_Array.FAQ_Medium;
+package II_Array.Medium;
 
 public class maxSubArrayBruite_KadaneAlgo {
     

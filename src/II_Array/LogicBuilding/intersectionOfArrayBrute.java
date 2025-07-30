@@ -11,9 +11,6 @@
 */
 
 import java.util.ArrayList;
-
-import java.util.ArrayList;
-
 public class intersectionOfArrayBrute {
     public int[] intersectionArray(int[] nums1, int[] nums2) {
         int n1 = nums1.length;
@@ -35,7 +32,7 @@ public class intersectionOfArrayBrute {
         
         int[] arr = new int[list.size()];
         for (int i = 0; i < list.size(); i++) {
-            arr[i] = list.get(i);  // FIXED
+            arr[i] = list.get(i);
         }
         
         return arr;
