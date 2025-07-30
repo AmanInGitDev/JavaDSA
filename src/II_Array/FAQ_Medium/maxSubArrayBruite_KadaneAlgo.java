@@ -1,4 +1,4 @@
-package V_Recursion.ImplementationProblem;
+package II_Array.FAQ_Medium;
 
 public class maxSubArrayBruite_KadaneAlgo {
     

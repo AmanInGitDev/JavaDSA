@@ -1,6 +1,6 @@
-package V_Recursion.ImplementationProblem;
+package II_Array.FAQ_Medium;
 
-public class fourSumBruite {
+public class fourSumOpti2TP {
     public int[] twoSum(int[] nums, int target) {
         return new int[]{-1, -1};
     }

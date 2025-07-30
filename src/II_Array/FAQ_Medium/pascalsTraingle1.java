@@ -1,4 +1,4 @@
-package V_Recursion.ImplementationProblem;
+package II_Array.FAQ_Medium;
 
 public class pascalsTraingle1 {
     public int position(int r, int c){

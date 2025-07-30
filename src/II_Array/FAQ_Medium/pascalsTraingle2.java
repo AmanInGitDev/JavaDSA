@@ -1,4 +1,4 @@
-package V_Recursion.ImplementationProblem;
+package II_Array.FAQ_Medium;
 
 public class pascalsTraingle2 {
     public int[] rowArray(int r){

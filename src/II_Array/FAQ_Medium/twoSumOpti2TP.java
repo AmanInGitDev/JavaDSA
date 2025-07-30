@@ -1,4 +1,4 @@
-package V_Recursion.ImplementationProblem;//using optimal approach using two pointers
+package II_Array.FAQ_Medium;//using optimal approach using two pointers
 
 public class twoSumOpti2TP {
 

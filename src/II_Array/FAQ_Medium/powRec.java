@@ -1,3 +1,5 @@
+package II_Array.FAQ_Medium;
+
 public class powRec {
     public double myPow(double x, int n) {
         if(n==0){
