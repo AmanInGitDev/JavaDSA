@@ -1,4 +1,4 @@
-package II_Array.Medium;
+package V_Recursion.ImplementationProblem;
 
 public class maxSubArrayOpti_KadaneAlgo {
     
