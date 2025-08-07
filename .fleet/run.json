@@ -1,0 +1,13 @@
+{
+  "configurations": [
+    {
+      "name": "Run MyMain",
+      "type": "jps-run",
+      "module": "my-java-module",
+      "mainClass": "com.mycompany.MyMain",
+      "workingDir": "$PROJECT_DIR$",
+      "args": [],
+      "options": []
+    }
+  ]
+}
