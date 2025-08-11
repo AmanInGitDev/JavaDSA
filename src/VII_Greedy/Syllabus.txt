@@ -1,0 +1,19 @@
+Easy (0/3)
+
+Assign Cookies
+Lemonade Change
+Jump Game - I
+____________________________________________________
+Scheduling and Interval Problems (0/6)
+
+Shortest Job First
+Job sequencing Problem
+N meetings in one room
+Non-overlapping Intervals
+Insert Interval
+Minimum number of platforms required for a railway
+____________________________________________________
+Hard (0/2)
+
+Valid Paranthesis Checker
+Candy
